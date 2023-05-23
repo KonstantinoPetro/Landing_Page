@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.container {
+  padding: 0 150px;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9f4f8;
+}
+
+.links,
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.main .main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9f4f8;
+}
+
+.main-text {
+  margin: 0px;
+}
+
+.left {
+  text-align: left;
+  width: 400px;
+}
+
+.right {
+  display: flex;
+  height: 200px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 25px;
+  border-radius: 8px;
+}
+
+button.signup {
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  color: white;
+  font-weight: bold;
+}
