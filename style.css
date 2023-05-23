@@ -27,6 +27,7 @@ body {
 .links,
 .secondary-text {
   font-size: 18px;
+  font-weight: 300;
   color: #e5e7eb;
   margin: 0px;
 }
@@ -83,7 +84,7 @@ button.signup {
   font-weight: bold;
 }
 
-/* 2nd section */
+/* 1st section */
 
 .section1-title {
   text-align: center;
@@ -114,7 +115,7 @@ button.signup {
   flex-wrap: wrap;
 }
 
-/* 3rd section */
+/* 2nd section */
 
 .section2 {
   background-color: #e5e7eb;
@@ -123,6 +124,8 @@ button.signup {
   align-items: center;
   justify-content: center;
   height: 300px;
+  margin-top: 50px;
+  padding: 20px 0;
 }
 
 .quote {
@@ -140,4 +143,47 @@ button.signup {
   color: #1f2937;
   margin-left: 500px;
   font-size: 18px;
+}
+
+/* 3rd section */
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  color: #f9f4f8;
+}
+
+.modal {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  padding: 25px 100px;
+  border-radius: 8px;
+  gap: 50px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.text {
+  margin: 0;
+  font-size: 10px;
+}
+
+.signup.second {
+  border: 1px solid white;
+  font-weight: bold;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
 }
